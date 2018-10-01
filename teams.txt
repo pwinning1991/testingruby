@@ -1,0 +1,20 @@
+Twins,Mets,YankeesStarted server
+    at: 2018-09-15 16:17:09 -0400
+Started server
+    at: 2018-09-15 16:17:10 -0400
+Started server
+    at: 2018-09-15 16:17:11 -0400
+Started server
+    at: 2018-09-15 16:17:12 -0400
+Started server
+    at: 2018-09-15 16:17:13 -0400
+Started server
+    at: 2018-09-15 16:17:14 -0400
+Started server
+    at: 2018-09-15 16:17:15 -0400
+Started server
+    at: 2018-09-15 16:17:16 -0400
+Started server
+    at: 2018-09-15 16:17:17 -0400
+Started server
+    at: 2018-09-15 16:17:18 -0400

@@ -1,0 +1,2 @@
+Error: undefined method `+' for nil:NilClass at 2018-09-15 16:29:09 -0400
+Error: undefined method `+' for nil:NilClass at 2018-09-15 16:29:45 -0400
