@@ -10,6 +10,5 @@ p 5**5
 
 
  #difference between floats and ints in Ruby
-
  p 2 / 16
  p 2.0/16
