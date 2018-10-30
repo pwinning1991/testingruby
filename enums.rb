@@ -1,14 +1,14 @@
 #given an array of intergers
 #only grab the even inegers
 
- p (1..10).to_a.select { |x|x.even? }
+p (1..10).to_a.select { |x|x.even? }
 
- p (1..10).to_a.select(&:even?)
+p (1..10).to_a.select(&:even?)
 p (1..10).to_a.select(&:odd?)
 
 
- #given an array of words and only return words
- #thatr are over 5 letters
+#given an array of words and only return words
+#that are over 5 letters
 arr = %w(The quick brown fox jumped over the dog)
 
 p arr.select {|x| x.length > 5}
