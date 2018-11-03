@@ -1,27 +1,31 @@
 class Baseball
-end
+end             # => nil
 
 class Baseball
   def swing
-    "homerun"
-  end
-end
+    "homerun"   # => "homerun"
+  end           # => :swing
+end             # => :swing
 
-p Baseball.new.swing
+p Baseball.new.swing  # => "homerun"
 
 
 class String
   def censor(bad_word)
-    self.gsub! "#{bad_word}", "Censorsed!"
-  end
+    self.gsub! "#{bad_word}", "Censorsed!"  # => "the Censorsed! was in trouble with the king's Censorsed!"
+  end                                       # => :censor
 
   def num_of_chars
-    size
-  end
+    size            # => 46
+  end               # => :num_of_chars
 
-end
+end  # => :num_of_chars
 
 
 
-p "the bunny was in trouble with the king's bunny".censor("bunny")
-p "the bunny was in trouble with the king's bunny".num_of_chars
+p "the bunny was in trouble with the king's bunny".censor("bunny")  # => "the Censorsed! was in trouble with the king's Censorsed!"
+p "the bunny was in trouble with the king's bunny".num_of_chars     # => 46
+
+# >> "homerun"
+# >> "the Censorsed! was in trouble with the king's Censorsed!"
+# >> 46
